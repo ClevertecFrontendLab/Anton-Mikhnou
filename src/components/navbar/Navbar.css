@@ -1,0 +1,339 @@
+* {
+    box-sizing: border-box;
+}
+
+.sider {
+    width: 208px;
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background: var(--character-light-primary-inverse);
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.15);
+    transform: translateX(0);
+}
+
+.menu_logo {
+    padding: 30px 0px 0px 0px;
+    width: 208px;
+    height: 360px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: var(--character-light-primary-inverse);
+    flex-shrink: 0;
+}
+
+.logo {
+    width: 208px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+    background: var(--character-light-primary-inverse);
+}
+
+.logo__inner {
+    width: 133px;
+    height: 33px;
+}
+
+.menu {
+    width: 208px;
+    height: 216px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.menu > ul {
+    padding: 0;
+    width: 208px;
+    height: 216px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.menu > ul > li {
+    padding: 0px 16px;
+    width: 64px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+    color: var(--character-light-title-85);
+}
+
+.ant-menu-title-content{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+    color: var(--character-light-title-85);
+}
+
+.ant-menu-item::before{
+    content: '';
+}
+
+.siderBtn {
+    flex-grow: 1;
+}
+
+.siderBtn__inner {
+    width: 20px;
+    height: 66px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: var(--width-sider);
+    top: calc(var(--width-sider)/2)
+}
+
+.ant-Btn {
+    width: 20px;
+    height: 66px;
+    fill: var(--character-light-primary-inverse);
+    clip-path: polygon(0 0, 100% 20%, 100% 80%, 0% 100%);
+    padding: 0;
+    border-radius: 0;
+    border: none;
+    background: var(--character-light-primary-inverse);
+    display: flex;
+    align-items: center;
+}
+
+.ant-Btn:focus {
+    outline: none;
+}
+
+.trigger {
+    width: 208px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.trigger__wrapper {
+    padding: 0px 16px;
+    width: 208px;
+    height: 40px;
+    box-shadow: inset 0 1px 0 0 var(--character-light-dividers);
+    background: var(--character-light-primary-inverse);
+}
+
+.inner__trigger {
+    width: 176px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.inner__trigger > span {
+    display: flex;
+    align-items: center;
+    fill: var(--character-light-primary-inverse);
+}
+
+.ant-Btn-Out {
+    display: flex;
+    gap: 10px;
+    border-radius: 2px;
+    border: 0;
+    padding: 4px 15px;
+    width: 74px;
+    height: 26px;
+    background: var(--character-light-primary-inverse);
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+    text-align: center;
+    color: var(--character-light-title-85);
+    outline: none;
+}
+
+.active {
+    width: 64px;
+    height: 1024px;
+    display: flex;
+    flex-direction: column; 
+    background: var(--character-light-primary-inverse);
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.15);
+}
+
+.menu_logo-active {
+    padding: 30px 0px 0px 0px;
+    width: 64px;
+    height: 360px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: var(--character-light-primary-inverse);
+    flex-shrink: 0;
+}
+.menu_logo-active > .menu {
+    width: 64px;
+}
+
+.logo-active {
+    width: 64px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+    background: var(--character-light-primary-inverse);
+}
+
+.logo__inner-active {
+    width: 28px;
+    height: 26px;
+}
+
+.clever-active {
+    display: none;
+} 
+
+.menu-active {
+    width: 64px;
+    height: 216px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.menu-active > ul {
+    padding: 0;
+    width: 64px;
+    height: 216px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.menu-active > ul > li {
+    padding: 13px 24px;
+    width: 64px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+    color: var(--character-light-title-85);
+}
+
+.siderBtn-active {
+    flex-grow: 1;
+}
+
+.siderBtn__inner-active {
+    width: 20px;
+    height: 66px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: var(--width-sider-active);
+    top: calc(var(--width-sider)/2)
+}
+
+.ant-Btn-active {
+    width: 20px;
+    height: 66px;
+    fill: var(--character-light-primary-inverse);
+    clip-path: polygon(0 0, 100% 20%, 100% 80%, 0% 100%);
+    padding: 0;
+    border-radius: 0;
+    border: none;
+    background: var(--character-light-primary-inverse);
+    display: flex;
+    align-items: center;
+}
+
+.ant-Btn-active:focus {
+    outline: none;
+}
+
+.trigger-active {
+    padding: 0px 16px;
+    width: 64px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    flex-shrink: 0;
+    content: none;
+    box-shadow: inset 0 1px 0 0 var(--character-light-dividers);
+    background: var(--character-light-primary-inverse);
+}
+
+.trigger__wrapper-active {
+    width: 32px;
+    height: 40px;
+    box-shadow: inset 0 1px 0 0 var(--character-light-dividers);
+}
+
+.inner__trigger-active {
+    width: 32px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.inner__trigger-active > span {
+    display: flex;
+    align-items: center;
+    fill: var(--character-light-primary-inverse);
+}
+
+.ant-Btn-Out-active {
+    display: flex;
+    gap: 10px;
+    padding: 4px 15px;
+    width: 74px;
+    height: 26px;
+    background: var(--character-light-primary-inverse);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+    text-align: center;
+    color: var(--character-light-title-85);
+    outline: none;
+}
+
+.menuActive > li{
+    padding: 13px 24px;
+    width: 64px;
+    height: 42px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

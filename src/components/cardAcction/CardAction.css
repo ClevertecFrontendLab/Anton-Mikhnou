@@ -1,0 +1,96 @@
+.card-action {
+    width: 1184px;
+    height: 101px;
+    grid-row-start: 3;
+    grid-row-end: 4; 
+    display: flex;
+    gap: 16px;
+}
+
+.card-action-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 2px;
+    width: 240px;
+    height: 101px;
+    background: var(--character-light-primary-inverse);
+}
+
+.card-action-body {
+    padding: 12px 24px;
+    width: 240px;
+    height: 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-top, .text-bottom{
+    width: 192px;
+    height: 21px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    color: var(--character-light-title-85);
+}
+
+
+.card-action-action {
+    padding: 12px 0px;
+    width: 240px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: inset 0 1px 0 0 var(--character-light-dividers);
+    background: var(--character-light-primary-inverse);
+}
+
+.button-group {
+    width: 240px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-group > button {
+    border-radius: 2px;
+    padding: 4px 15px;
+    width: 240px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    background: rgba(255, 255, 255, 0);
+}
+
+.icon-wrapper {
+    width: 11px;
+    height: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-wrapper > span > svg {
+    width: 12px;
+    height: 12px;
+    fill: var(--primary-light-6);
+}
+
+.button-text {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+    text-align: center;
+    color: var(--primary-light-6);
+}

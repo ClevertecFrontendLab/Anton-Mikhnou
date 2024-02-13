@@ -1,0 +1,82 @@
+.header {
+    width: 100%;
+    height: 100%;
+    background: var(--primary-light-1);
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    padding: 16px 24px;
+    width: 1232px;
+    height: 168px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bread-crumb {
+    width: 56px;
+    height: 18px;
+}
+
+.last-item{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+    color: var(--character-light-title-85);
+}
+
+.layout-blocks{
+    padding: 8px 0px 0px 0px;
+    width: 1184px;
+    height: 118px;
+    display: flex;
+}
+
+.heanding-left {
+    padding: 6px 0px;
+    width: 1055px;
+    height: 110px;
+}
+
+.heanding-left-inner {
+    width: 1055px;
+    height: 98px;
+}
+
+.title {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 130%;
+    color: var(--character-light-title-85);
+    display: flex;
+    justify-content: center;
+}
+
+.heading-extra {
+    width: 129px;
+    height: 32px;
+}
+
+.heading-extra > button {
+    border-radius: 2px;
+    padding: 4px 15px;
+    width: 129px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background: var(--primary-light-1);
+}
+
+.tite-button {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+    text-align: center;
+    color: var(--character-light-title-85);
+}

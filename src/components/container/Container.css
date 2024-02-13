@@ -1,0 +1,9 @@
+.container {
+    max-width: 1232px;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 168px 24px 216px 24px 126px 16px 101px 24px 283px;
+    column-gap: 24px;
+    padding: 0px 0px 42px 0px;
+}
