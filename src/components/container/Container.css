@@ -1,0 +1,12 @@
+.container {
+    max-width: 1232px;
+    height: 1024px;
+    gap: 24px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 0px 0px 42px 0px;
+}
+
+
