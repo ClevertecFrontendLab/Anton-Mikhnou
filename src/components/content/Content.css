@@ -19,6 +19,8 @@
 .content-text {
     width: 704px;
     height: 78px;
+    display: flex;
+    align-items: center;
 }
 
 .content-text > p {
@@ -29,3 +31,5 @@
     color: var(--character-light-title-85);
     margin: 0;
 }
+
+

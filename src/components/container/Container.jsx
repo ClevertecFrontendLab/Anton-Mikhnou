@@ -4,6 +4,7 @@ import Card from '../card/Card';
 import Content from '../content/Content';
 import CardAction from '../cardAcction/CardAction';
 import Footer from '../footer/Footer';
+import { useState } from 'react';
 
 const items = [
     {
@@ -25,6 +26,7 @@ const items = [
 ]
 
 export default function Conainer() {
+    // const [contActive, setContActive] = useState(true)
     return (
         <div className='container' >
             <Header />

@@ -8,19 +8,19 @@ export default function Footer() {
             <button>
                 <p>Смотреть отзывы</p>
             </button>
-            <div className='card-action-wrapper'>
-                    <div className='card-action-body'>
-                        <div className='text-top-outher'>
+            <div className='card-action-wrapper-footer'>
+                    <div className='card-action-body-footer'>
+                        <div className='text-top-outher-footer'>
                             Скачать на телефон
                         </div>
-                        <div className='text-bottom-outher'>
+                        <div className='text-bottom-outher-footer'>
                             Доступно в PRO-тарифе
                         </div>
                     </div>
-                    <div className='card-action-action'>
+                    <div className='card-action-action-footer'>
                         <div className='button-group-outher'>
                             <div>
-                                <button className='button-left'>
+                                <button className='button-left-footer'>
                                     <div className='icon-wrapper-footer'>
                                         <AndroidFilled />
                                     </div>
@@ -28,7 +28,7 @@ export default function Footer() {
                                         Android OS
                                     </div>
                                 </button>
-                                <button className='button-rigth'>
+                                <button className='button-rigth-footer'>
                                     <div className='icon-wrapper-footer'>
                                         <AppleFilled />
                                     </div>
